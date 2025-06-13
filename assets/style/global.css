@@ -1,0 +1,32 @@
+@import url('https://fonts.cdnfonts.com/css/schoolkxnew');
+/* font-family: 'SchoolKX_New', sans-serif; */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    /* Color set Variables */
+    --primary-color:#BDD9BF ;
+    --secondary-color: #2E4052 ;
+    --highlight-color: #FFC857;
+    --text-color: #EAF6FF;
+    --link-color: #fff; 
+    --background-color: #2A2A72;
+
+    /* Attribute Set Variables */
+    --radius-main: 14px;
+    --radius-inner: calc(var(--radius-main) / 3 * 2);
+
+    --heading-font: 25px ;
+    --text-font: 15px ;
+
+    /*Fonts*/
+    --main-font: 'SchoolKX_New', sans-serif;
+}
+
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
