@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/assets/style/global.css">
     <link rel="stylesheet" href="/assets/style/menu.css">
     <link rel="stylesheet" href="/assets/style/page.css">
+    <link rel="stylesheet" href="/assets/style/contact.css">
 </head>
 <body>
 
@@ -17,13 +18,43 @@
             <ul>
                 <a href="/index.html"><li>Home</li></a>
                 <a href="/projects.html"><li>My Projects</li></a>
-                <a href="/about.html"><li>Contact Me</li></a>
+                <a href="/contact.html"><li>Contact Me</li></a>
             </ul>
         </div>
     </div>
     
     <div class="page">
-        BBBBBBB
+        <div class="heading">
+            <h1>Contact Me</h1>
+            <br>
+            <p>
+                If you have any questions, feedback, or just want to say hello, feel free to reach out to me through the form below.
+            </p>
+        </div>
+
+        <div class="contact-form">
+            <form action="#" method="post">
+
+                <div class="row">
+                    <div class="item">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="item">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <div class="row">
+                    <div class="center-button">
+                        <button onclick="sendDetails()" type="submit">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
     <div class="footer">
         <div class="footer-items">

@@ -1,0 +1,45 @@
+@import url('/assets/style/global.css');
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: var(--standard-padding);
+    border: solid 2px var(--primary-color);
+    border-radius: var(--radius-main);
+}
+.contact-form textarea{
+    width: 100%;
+    height: 100px;
+    padding: var(--standard-padding);
+}
+.contact-form button {
+    width: auto;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: var(--radius-inner);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: 0.3s;   
+    margin: 20px 0;
+}
+.center-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.item{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}

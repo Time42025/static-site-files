@@ -37,6 +37,9 @@
     height: auto;
     background-color: var(--secondary-color);
     font-family: var(--main-font);
+    position: absolute;
+    margin-top: auto;
+
 }
 .footer p{
     color: var(--text-color);
