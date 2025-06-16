@@ -9,3 +9,8 @@ https://github.com/Charly-Hudson/static-site-files.git
 You will be asked if you want to install the Site-Git-Utils just reply y or n 
 
 Done
+
+In This Repo you will find a /template.html this is full of templated code that you can use
+
+Be sure to keep the File Structure intact so everything is imported properly.
+

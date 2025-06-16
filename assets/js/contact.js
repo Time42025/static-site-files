@@ -4,7 +4,6 @@ function sendDetails() {
     const message = document.getElementById('message').value;
 
     // Simple validation
-
     if (name && email && message) {
         alert(`Thank you, ${name}! Your message has been sent.`);
         // Here you would typically send the data to a server
