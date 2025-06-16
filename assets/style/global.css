@@ -12,19 +12,22 @@
     --highlight-color: #FFC857;
     --text-color: #EAF6FF;
     --link-color: #fff; 
-    --background-color: #2A2A72;
+    --background-color: #181827;
 
     /* Attribute Set Variables */
     --radius-main: 14px;
     --radius-inner: calc(var(--radius-main) / 3 * 2);
 
-    --heading-font: 25px ;
-    --text-font: 15px ;
+    --heading-font: 25px;
+    --paragraph-font: 18px;
+    --text-font: 15px;
+
+    --page-padding: 10px 80px;
+    --standard-padding: 10px 5px;
 
     /*Fonts*/
     --main-font: 'SchoolKX_New', sans-serif;
 }
-
 
 body{
     background-color: var(--background-color);
