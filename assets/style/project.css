@@ -1,24 +1,47 @@
+
+/* importing global CSS file to ensure consistency */
 @import url('/assets/style/global.css');
+
+/* . project relating to the HTML code  */
 .project{
+    /* setting a margin around the project container */
     margin: 20px 0 20px 0;
+    /* setting the display to flex for layout */
+    /* flex https://www.w3schools.com/css/css3_flexbox.asp */
     display: flex;
+    /* setting width of 100% to ensure it encompasses the entire width of the screen */
     width: 100%;
+    /* setting height to auto to allow it to adjust based on content */
     height:auto;
+    /* setting a maximum height to allow overflow */
     max-height: 600px;
+    /* setting overflow to auto to allow scrolling */
+    overflow: auto;
+    /* setting flex direction to column for vertical layout */
     flex-direction: column;
+    /* setting a border radius for the project container */
     border-radius: var(--radius-main);
+    /* setting a border for the project container */
     border: solid 2px;
 }
 
 .project-title{
     width: 100%;
     height: 50px;
+    /* setting a background color for the project title */
+    /* calling a variable set in the global/css file */
     background-color: var(--project-title-bg);
 }
 
 .project-title h2{
+    /* setting a font size for the project title */
+    /* calling a variable set in the global/css file */
+    font-size: var(--heading-font);
+    /* setting text alignment for the project title */
     text-align: center;
+    /* setting a color for the project title */
     color: var(--text-color);
+    /* setting padding for the project title */
     padding: 10px 0;
 }
 
@@ -26,6 +49,12 @@
     display: flex;
     flex: auto;
     width: 100%;
+    /* setting a border radius for the project body */
+    /* while using border radius you can use 1 / 2 / 4 values */
+    /* 1 value - all 4 corners */
+    /* 2 values - top left and bottom right, top right and bottom left */
+    /* 4 values - top left, top right, bottom right, bottom left */
+    /* when using more then one value that can be different */
     border-radius: 0 0 var(--radius-main) var(--radius-main);
 }
 .description-body{
